@@ -24,12 +24,23 @@
   <div id="rules-screen" style="display: none;">
     <h2>Regras</h2>
     <ul>
-      <li>Nome</li>
-      <li>Cep</li>
-      <li>Minha sogra é</li>
-      <li>Fruta</li>
-      <li>Carro</li>
+      <li>
+        Nome: <input type="text" id="input-nome" placeholder="Sua resposta para Nome">
+      </li>
+      <li>
+        CEP: <input type="text" id="input-cep" placeholder="Sua resposta para CEP">
+      </li>
+      <li>
+        Minha sogra é: <input type="text" id="input-sogra" placeholder="Sua resposta para Minha sogra é">
+      </li>
+      <li>
+        Fruta: <input type="text" id="input-fruta" placeholder="Sua resposta para Fruta">
+      </li>
+      <li>
+        Carro: <input type="text" id="input-carro" placeholder="Sua resposta para Carro">
+      </li>
     </ul>
+    <button onclick="endGame()">STOP</button> <!-- Botão STOP para encerrar o jogo -->
     <p id="random-letter"></p>
   </div>
 

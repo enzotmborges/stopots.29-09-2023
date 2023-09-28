@@ -20,3 +20,7 @@ function drawLetter() {
   document.getElementById('rules-screen').style.display = 'block';
   document.getElementById('random-letter').innerText = 'Letra sorteada: ' + randomLetter; // Exibe a letra sorteada na tela de regras
 }
+
+function endGame() {
+  alert('Fim de jogo'); // Mostra uma mensagem de fim de jogo
+}

@@ -1,39 +1,38 @@
 body {
-    font-family: Arial, sans-serif; /* Estilo da fonte para o corpo do documento */
-    margin: 20px; /* Margem ao redor do corpo do documento */
-  }
-  
-  #login-screen {
-    text-align: center; /* Alinha o conteúdo ao centro na tela de login */
-  }
-  
-  #letter-screen, #rules-screen {
-    text-align: center; /* Alinha o conteúdo ao centro nas telas de sorteio de letra e regras */
-    margin-top: 20px; /* Margem superior nas telas de sorteio de letra e regras */
-  }
-  
-  #letter-display {
-    font-size: 24px; /* Tamanho da fonte para a letra sorteada */
-    margin-top: 10px; /* Margem superior para a exibição da letra sorteada */
-  }
-  
-  ul {
-    list-style-type: none; /* Remove a marcação de lista */
-    padding: 0; /* Remove o preenchimento padrão para a lista */
-  }
-  
-  ul li {
-    margin-bottom: 10px; /* Margem inferior para os itens da lista */
-  }
-  
-  button {
-    padding: 10px 20px; /* Preenchimento do botão */
-    font-size: 16px; /* Tamanho da fonte do botão */
-    cursor: pointer; /* Altera o cursor para indicar que é clicável */
-  }
-  
-  button:hover {
-    background-color: #333; /* Cor de fundo ao passar o mouse sobre o botão */
-    color: white; /* Cor do texto ao passar o mouse sobre o botão */
-  }
-  
+  font-family: Arial, sans-serif; /* Estilo da fonte para o corpo do documento */
+  margin: 20px; /* Margem ao redor do corpo do documento */
+}
+
+#login-screen {
+  text-align: center; /* Alinha o conteúdo ao centro na tela de login */
+}
+
+#letter-screen, #rules-screen {
+  text-align: center; /* Alinha o conteúdo ao centro nas telas de sorteio de letra e regras */
+  margin-top: 20px; /* Margem superior nas telas de sorteio de letra e regras */
+}
+
+#letter-display {
+  font-size: 24px; /* Tamanho da fonte para a letra sorteada */
+  margin-top: 10px; /* Margem superior para a exibição da letra sorteada */
+}
+
+ul {
+  list-style-type: none; /* Remove a marcação de lista */
+  padding: 0; /* Remove o preenchimento padrão para a lista */
+}
+
+ul li {
+  margin-bottom: 10px; /* Margem inferior para os itens da lista */
+}
+
+button {
+  padding: 10px 20px; /* Preenchimento do botão */
+  font-size: 16px; /* Tamanho da fonte do botão */
+  cursor: pointer; /* Altera o cursor para indicar que é clicável */
+}
+
+button:hover {
+  background-color: #333; /* Cor de fundo ao passar o mouse sobre o botão */
+  color: white; /* Cor do texto ao passar o mouse sobre o botão */
+}
