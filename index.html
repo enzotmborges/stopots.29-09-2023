@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css"> <!-- Link para o arquivo de estilos -->
+  <title>Jogo STOP</title>
+</head>
+<body>
+  <!-- Tela de login -->
+  <div id="login-screen">
+    <label for="username">Digite seu nome de usuário:</label>
+    <input type="text" id="username" placeholder="Seu nome de usuário">
+    <button onclick="startGame()">Começar o jogo</button>
+  </div>
+
+  <!-- Tela de sorteio de letra -->
+  <div id="letter-screen" style="display: none;">
+    <button onclick="drawLetter()">Sortear letra</button>
+    <div id="letter-display"></div>
+  </div>
+
+  <!-- Tela de regras -->
+  <div id="rules-screen" style="display: none;">
+    <h2>Regras</h2>
+    <ul>
+      <li>Nome</li>
+      <li>Cep</li>
+      <li>Minha sogra é</li>
+      <li>Fruta</li>
+      <li>Carro</li>
+    </ul>
+    <p id="random-letter"></p>
+  </div>
+
+  <script src="script.js"></script> <!-- Inclusão do script JavaScript -->
+</body>
+</html>
